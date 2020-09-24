@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp">
+
+    <ImageView
+        android:id="@+id/image_list"
+        android:layout_height="110dp"
+        android:layout_width="130dp"
+        android:src="@drawable/town_mouse_country"
+        android:importantForAutofill="yes"/>
+    <TextView
+        android:id="@+id/text_list"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:text="@string/the_town_mouse_amp_the_country_mouse"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:padding="2dp"
+        android:background="@color/rose"/>
+</LinearLayout>
